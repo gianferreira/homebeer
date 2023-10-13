@@ -7,18 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE12A4F22AD8D194004A3E00 /* CommentsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE12A4F02AD8D193004A3E00 /* CommentsContainer.xcdatamodeld */; };
+		CE20A99E2AD6D04C00C4AEEB /* BreweryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20A99D2AD6D04C00C4AEEB /* BreweryViewModel.swift */; };
+		CE20A9A02AD6D05B00C4AEEB /* BreweryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20A99F2AD6D05B00C4AEEB /* BreweryView.swift */; };
+		CE20A9A32AD6D36300C4AEEB /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20A9A22AD6D36300C4AEEB /* WelcomeViewModel.swift */; };
+		CE20A9A52AD6D37500C4AEEB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20A9A42AD6D37500C4AEEB /* WelcomeView.swift */; };
 		CE5A08442AD4B7B900681485 /* HomeBeerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A08432AD4B7B900681485 /* HomeBeerApp.swift */; };
-		CE5A08462AD4B7B900681485 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A08452AD4B7B900681485 /* ContentView.swift */; };
-		CE5A08482AD4B7BB00681485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5A08472AD4B7BB00681485 /* Assets.xcassets */; };
 		CE5A084B2AD4B7BB00681485 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5A084A2AD4B7BB00681485 /* Preview Assets.xcassets */; };
+		CE5A08522AD4C78000681485 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE5A08512AD4C78000681485 /* GoogleService-Info.plist */; };
+		CE5A08552AD4C89E00681485 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CE5A08542AD4C89E00681485 /* FirebaseAuth */; };
+		CE5A08592AD4CBCB00681485 /* AuthenticationVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A08582AD4CBCB00681485 /* AuthenticationVIew.swift */; };
+		CE5A085D2AD4D0C400681485 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A085C2AD4D0C400681485 /* AuthenticationManager.swift */; };
+		CE5A085F2AD4D59600681485 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A085E2AD4D59600681485 /* RootView.swift */; };
+		CE5A08632AD4EE7D00681485 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CE5A08622AD4EE7D00681485 /* FirebaseFirestoreSwift */; };
+		CE5A08652AD4EE8200681485 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE5A08642AD4EE8200681485 /* FirebaseFirestore */; };
+		CE5A086D2AD4EFE000681485 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A086C2AD4EFE000681485 /* AuthenticationViewModel.swift */; };
+		CE5A08752AD4F68900681485 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A08742AD4F68900681485 /* UserManager.swift */; };
+		CEC16BEE2AD72A4800B952F4 /* BreweryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC16BED2AD72A4800B952F4 /* BreweryManager.swift */; };
+		CEC16BF32AD7572200B952F4 /* BreweryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC16BF22AD7572200B952F4 /* BreweryItemView.swift */; };
+		CEC16BF52AD77A4100B952F4 /* CommentsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC16BF42AD77A4100B952F4 /* CommentsManager.swift */; };
+		CEC16BF72AD7800400B952F4 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC16BF62AD7800400B952F4 /* DetailsView.swift */; };
+		CEC16BF92AD7801800B952F4 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC16BF82AD7801800B952F4 /* DetailsViewModel.swift */; };
+		CEC16BFC2AD7911900B952F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC16BFB2AD7911800B952F4 /* Assets.xcassets */; };
+		CEC16C002AD7A79200B952F4 /* CommentItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC16BFF2AD7A79200B952F4 /* CommentItemView.swift */; };
+		CEC16C022AD7A7BB00B952F4 /* AddCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC16C012AD7A7BB00B952F4 /* AddCommentView.swift */; };
+		CEC16C042AD7A7D000B952F4 /* AddCommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC16C032AD7A7D000B952F4 /* AddCommentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE12A4F12AD8D193004A3E00 /* CommentsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CommentsContainer.xcdatamodel; sourceTree = "<group>"; };
+		CE20A99D2AD6D04C00C4AEEB /* BreweryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryViewModel.swift; sourceTree = "<group>"; };
+		CE20A99F2AD6D05B00C4AEEB /* BreweryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryView.swift; sourceTree = "<group>"; };
+		CE20A9A22AD6D36300C4AEEB /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		CE20A9A42AD6D37500C4AEEB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		CE5A08402AD4B7B900681485 /* HomeBeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeBeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5A08432AD4B7B900681485 /* HomeBeerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeBeerApp.swift; sourceTree = "<group>"; };
-		CE5A08452AD4B7B900681485 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CE5A08472AD4B7BB00681485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5A084A2AD4B7BB00681485 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE5A08512AD4C78000681485 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE5A08582AD4CBCB00681485 /* AuthenticationVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationVIew.swift; sourceTree = "<group>"; };
+		CE5A085C2AD4D0C400681485 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		CE5A085E2AD4D59600681485 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		CE5A086C2AD4EFE000681485 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		CE5A08742AD4F68900681485 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		CEC16BED2AD72A4800B952F4 /* BreweryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreweryManager.swift; sourceTree = "<group>"; };
+		CEC16BF22AD7572200B952F4 /* BreweryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryItemView.swift; sourceTree = "<group>"; };
+		CEC16BF42AD77A4100B952F4 /* CommentsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsManager.swift; sourceTree = "<group>"; };
+		CEC16BF62AD7800400B952F4 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		CEC16BF82AD7801800B952F4 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		CEC16BFB2AD7911800B952F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEC16BFF2AD7A79200B952F4 /* CommentItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentItemView.swift; sourceTree = "<group>"; };
+		CEC16C012AD7A7BB00B952F4 /* AddCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommentView.swift; sourceTree = "<group>"; };
+		CEC16C032AD7A7D000B952F4 /* AddCommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +65,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5A08552AD4C89E00681485 /* FirebaseAuth in Frameworks */,
+				CE5A08632AD4EE7D00681485 /* FirebaseFirestoreSwift in Frameworks */,
+				CE5A08652AD4EE8200681485 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE20A99C2AD6D02B00C4AEEB /* Brewery */ = {
+			isa = PBXGroup;
+			children = (
+				CE20A99F2AD6D05B00C4AEEB /* BreweryView.swift */,
+				CE20A99D2AD6D04C00C4AEEB /* BreweryViewModel.swift */,
+			);
+			path = Brewery;
+			sourceTree = "<group>";
+		};
+		CE20A9A12AD6D34900C4AEEB /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				CE20A9A42AD6D37500C4AEEB /* WelcomeView.swift */,
+				CE20A9A22AD6D36300C4AEEB /* WelcomeViewModel.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
 		CE5A08372AD4B7B900681485 = {
 			isa = PBXGroup;
 			children = (
+				CEC16BFB2AD7911800B952F4 /* Assets.xcassets */,
+				CE12A4F02AD8D193004A3E00 /* CommentsContainer.xcdatamodeld */,
 				CE5A08422AD4B7B900681485 /* HomeBeer */,
 				CE5A08412AD4B7B900681485 /* Products */,
+				CE5A08562AD4CB3E00681485 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				CE5A08432AD4B7B900681485 /* HomeBeerApp.swift */,
-				CE5A08452AD4B7B900681485 /* ContentView.swift */,
-				CE5A08472AD4B7BB00681485 /* Assets.xcassets */,
+				CE5A08672AD4EEFF00681485 /* Core */,
+				CE5A08732AD4F63200681485 /* Firestore */,
+				CE5A08572AD4CB8800681485 /* Authentication */,
+				CE5A08512AD4C78000681485 /* GoogleService-Info.plist */,
 				CE5A08492AD4B7BB00681485 /* Preview Content */,
 			);
 			path = HomeBeer;
@@ -65,6 +130,89 @@
 				CE5A084A2AD4B7BB00681485 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE5A08562AD4CB3E00681485 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE5A08572AD4CB8800681485 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CE5A085C2AD4D0C400681485 /* AuthenticationManager.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CE5A08672AD4EEFF00681485 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CE5A085E2AD4D59600681485 /* RootView.swift */,
+				CE5A086B2AD4EFCA00681485 /* Authentication */,
+				CE20A9A12AD6D34900C4AEEB /* Welcome */,
+				CE20A99C2AD6D02B00C4AEEB /* Brewery */,
+				CEC16BFA2AD7878A00B952F4 /* BreweryItem */,
+				CEC16BEF2AD7557B00B952F4 /* Details */,
+				CEC16BFD2AD7A75100B952F4 /* CommentItem */,
+				CEC16BFE2AD7A76C00B952F4 /* AddComment */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CE5A086B2AD4EFCA00681485 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CE5A08582AD4CBCB00681485 /* AuthenticationVIew.swift */,
+				CE5A086C2AD4EFE000681485 /* AuthenticationViewModel.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CE5A08732AD4F63200681485 /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				CEC16BED2AD72A4800B952F4 /* BreweryManager.swift */,
+				CE5A08742AD4F68900681485 /* UserManager.swift */,
+				CEC16BF42AD77A4100B952F4 /* CommentsManager.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+		CEC16BEF2AD7557B00B952F4 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				CEC16BF62AD7800400B952F4 /* DetailsView.swift */,
+				CEC16BF82AD7801800B952F4 /* DetailsViewModel.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		CEC16BFA2AD7878A00B952F4 /* BreweryItem */ = {
+			isa = PBXGroup;
+			children = (
+				CEC16BF22AD7572200B952F4 /* BreweryItemView.swift */,
+			);
+			path = BreweryItem;
+			sourceTree = "<group>";
+		};
+		CEC16BFD2AD7A75100B952F4 /* CommentItem */ = {
+			isa = PBXGroup;
+			children = (
+				CEC16BFF2AD7A79200B952F4 /* CommentItemView.swift */,
+			);
+			path = CommentItem;
+			sourceTree = "<group>";
+		};
+		CEC16BFE2AD7A76C00B952F4 /* AddComment */ = {
+			isa = PBXGroup;
+			children = (
+				CEC16C012AD7A7BB00B952F4 /* AddCommentView.swift */,
+				CEC16C032AD7A7D000B952F4 /* AddCommentViewModel.swift */,
+			);
+			path = AddComment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +231,11 @@
 			dependencies = (
 			);
 			name = HomeBeer;
+			packageProductDependencies = (
+				CE5A08542AD4C89E00681485 /* FirebaseAuth */,
+				CE5A08622AD4EE7D00681485 /* FirebaseFirestoreSwift */,
+				CE5A08642AD4EE8200681485 /* FirebaseFirestore */,
+			);
 			productName = HomeBeer;
 			productReference = CE5A08402AD4B7B900681485 /* HomeBeer.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +264,9 @@
 				Base,
 			);
 			mainGroup = CE5A08372AD4B7B900681485;
+			packageReferences = (
+				CE5A08532AD4C89E00681485 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = CE5A08412AD4B7B900681485 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5A084B2AD4B7BB00681485 /* Preview Assets.xcassets in Resources */,
-				CE5A08482AD4B7BB00681485 /* Assets.xcassets in Resources */,
+				CEC16BFC2AD7911900B952F4 /* Assets.xcassets in Resources */,
+				CE5A08522AD4C78000681485 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +294,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5A08462AD4B7B900681485 /* ContentView.swift in Sources */,
+				CEC16BF32AD7572200B952F4 /* BreweryItemView.swift in Sources */,
+				CEC16BF72AD7800400B952F4 /* DetailsView.swift in Sources */,
+				CEC16BF92AD7801800B952F4 /* DetailsViewModel.swift in Sources */,
+				CE5A08592AD4CBCB00681485 /* AuthenticationVIew.swift in Sources */,
+				CEC16C042AD7A7D000B952F4 /* AddCommentViewModel.swift in Sources */,
+				CEC16BEE2AD72A4800B952F4 /* BreweryManager.swift in Sources */,
+				CE5A085D2AD4D0C400681485 /* AuthenticationManager.swift in Sources */,
+				CE5A086D2AD4EFE000681485 /* AuthenticationViewModel.swift in Sources */,
 				CE5A08442AD4B7B900681485 /* HomeBeerApp.swift in Sources */,
+				CE5A085F2AD4D59600681485 /* RootView.swift in Sources */,
+				CE12A4F22AD8D194004A3E00 /* CommentsContainer.xcdatamodeld in Sources */,
+				CEC16C022AD7A7BB00B952F4 /* AddCommentView.swift in Sources */,
+				CE20A9A32AD6D36300C4AEEB /* WelcomeViewModel.swift in Sources */,
+				CE20A9A52AD6D37500C4AEEB /* WelcomeView.swift in Sources */,
+				CE5A08752AD4F68900681485 /* UserManager.swift in Sources */,
+				CEC16BF52AD77A4100B952F4 /* CommentsManager.swift in Sources */,
+				CEC16C002AD7A79200B952F4 /* CommentItemView.swift in Sources */,
+				CE20A99E2AD6D04C00C4AEEB /* BreweryViewModel.swift in Sources */,
+				CE20A9A02AD6D05B00C4AEEB /* BreweryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeBeer/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeBeer/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -337,6 +513,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE5A08532AD4C89E00681485 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE5A08542AD4C89E00681485 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE5A08532AD4C89E00681485 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CE5A08622AD4EE7D00681485 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE5A08532AD4C89E00681485 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		CE5A08642AD4EE8200681485 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE5A08532AD4C89E00681485 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		CE12A4F02AD8D193004A3E00 /* CommentsContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE12A4F12AD8D193004A3E00 /* CommentsContainer.xcdatamodel */,
+			);
+			currentVersion = CE12A4F12AD8D193004A3E00 /* CommentsContainer.xcdatamodel */;
+			path = CommentsContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CE5A08382AD4B7B900681485 /* Project object */;
 }
